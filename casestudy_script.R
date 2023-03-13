@@ -137,8 +137,6 @@ all_tripsv2 %>%
   ggplot(aes(x = weekday, y = number_of_rides, fill = member_casual)) +
   geom_col(position = "dodge")
 
-![](https://raw.githubusercontent.com/tadpole1997/cyclistic_casestudy/main/rides_by_type.png)
-
 # Let's create a visualization for average duration
 all_tripsv2 %>%
   mutate(weekday = wday(started_at, label = TRUE)) %>% 
