@@ -1,4 +1,4 @@
-# Cyclistic Case study: How Does a Bike-Share Navigate Speedy Success?
+# Cyclistic Case Study: How Does a Bike-Share Navigate Speedy Success?
 ### Author: Thaddeus Aguirre
 
 ## Introduction
