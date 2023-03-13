@@ -123,9 +123,9 @@ aggregate(all_tripsv2$ride_length ~ all_tripsv2$member_casual + all_tripsv2$day_
 all_tripsv2 %>%
   mutate(weekday = wday(started_at, label = TRUE)) %>%  #creates weekday field using wday()
   group_by(member_casual, weekday) %>%  #groups by usertype and weekday
-  summarise(number_of_rides = n()							#calculates the number of rides and average duration 
-            ,average_duration = mean(ride_length)) %>% 		# calculates the average duration
-  arrange(member_casual, weekday)								# sorts
+  summarise(number_of_rides = n()	#calculates the number of rides and average duration 
+            ,average_duration = mean(ride_length)) %>% # calculates the average duration
+  arrange(member_casual, weekday) # sorts
 
 # Let's visualize the number of rides by rider type
 all_tripsv2 %>%
@@ -136,6 +136,8 @@ all_tripsv2 %>%
   arrange(member_casual, weekday)  %>% 
   ggplot(aes(x = weekday, y = number_of_rides, fill = member_casual)) +
   geom_col(position = "dodge")
+
+![](https://raw.githubusercontent.com/tadpole1997/cyclistic_casestudy/main/rides_by_type.png)
 
 # Let's create a visualization for average duration
 all_tripsv2 %>%
