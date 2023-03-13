@@ -26,20 +26,18 @@ Moreno has set a clear goal: Design marketing strategies aimed at converting cas
 
 ## Business Task
 1. How do annual members and casual riders use Cyclistic bikes differently?
-2. Why would casual riders buy Cyclistic annual memberships?
-3. How can Cyclistic use digital media to influence casual riders to become members?
 
 ## Data Source
 I used data from February 2022 through January 2023 for my analysis.
 The data has been made available by Lyft Bikes and Scooters, LLC with [license](https://ride.divvybikes.com/data-license-agreement).
 
 ## Conclusion
-Based on my analysis the busiest months for casual riders and subscribed riders is the summer months. Also, on average the weekends are the busiest days throughout the year.
+Based on my analysis members on average ride cyclistic bikes at a steady rate throughout the week. However, when it comes to casual riders there is increased activity on the weekends, and during summer months. 
 
 ## Key Recommendations
 1. Increase rates for casual riders during peak seasons and weekends.
-2. Offer 3, 6, and 12 month subscriptions
-3. Create promotional marketing campaign to encourage subscribers during slow seasons.
+2. Offer 3, 6, and 12 month subscriptions.
+3. Create promotional marketing campaigns to encourage subscribers during slow seasons.
 
 ## Tools
 R Studio for data cleaning, data manipulation, and data visualization.
